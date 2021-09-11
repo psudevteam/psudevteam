@@ -6,7 +6,15 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      colors : {
+        primary : {
+          900: '#63dcff',
+          700: '#86e4ff',
+          500: '#9be9ff',
+        }
+      }
+    },
   },
   plugins: [],
 };
